@@ -1,0 +1,108 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(images3.jpeg);
+  background-repeat: no-repeat;
+  background-size: 26cm 52cm;
+
+}
+
+h1 {
+  font-size: 50pt;
+  color: white;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: #E49101;
+}
+
+#container {
+  background-color: none;
+  width: 30vh;
+  height: 50vh;
+  position: fixed;
+  top: 25%;
+  left: 22%;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 25pt;
+  border: 1px solid black;
+  margin: 10%;
+  width: 40vw;
+  height: 2.5vh;
+  border: 2px solid red;
+  background-color: #33B933;
+  border-radius: 20px;
+}
+
+.btn:active {
+  background: #ABB534;
+}
+
+li {
+  list-style: none;
+}
+#div1{
+  font-size: 30pt;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+}
+.ci1{
+  border: 5px solid black;
+  height: 2.5vh;
+  width: 35vw;
+  margin: 2vw;
+  font-size: 30pt;
+}
+#div2{
+  position: fixed;
+  top: 35vh;
+  left: 10vw;
+}
+.btn0{
+  border: 5px solid black;
+  height: 3vh;
+  width: 19vw;
+  font-size: 25pt;
+  background-color: seagreen;
+}
+.btn0:active{
+background-color: brown;
+}
+#demo{
+  position: fixed;
+  top: 40%;
+  left: 12%;
+  font-size: 50pt;
+  
+}
+#div3{
+  position: fixed;
+  top: 25%;
+  left: 35%;
+}
+.btn1{
+  border: 5px solid black;
+  height: 3vh;
+  width: 25vw;
+  font-size: 25pt;
+  background-color: seagreen;
+}
+.btn1:active{
+background-color: brown;
+}
+.btn2{
+  border: 5px solid black;
+  height: 5vh;
+  width: 30vw;
+  font-size: 25pt;
+  background-color: seagreen;
+  margin-top: 50%;
+}
+.btn2:active{
+background-color: brown;
+}
