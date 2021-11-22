@@ -1,0 +1,30 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(IMG_20211122_184634.jpg);
+  background-repeat: no-repeat;
+  background-size: 9.5cm 19cm;
+  min-height: 1cm; 
+  min-width: 1cm;
+}
+#container {
+  height: 10cm;
+  min-height: 1cm;
+  width: 8.6cm;
+  min-width: 1cm;
+  border: .3cm solid brown;
+  border-radius: 1mm;
+  position: absolute;
+  top: 4.5cm;
+  left: .2cm;
+  background-color: #247347;
+
+}
+input{
+  padding: 0;
+  margin-left: .15cm;
+  border: 5px solid black;
+  border-radius: 1mm;
+  position: relative;
+  right: .5cm;
+}
