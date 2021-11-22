@@ -1,8 +1,8 @@
 body {
   background-image: url(images3.jpeg);
   background-repeat: no-repeat;
-  background-size: 100vw 100vh;
-  min-height: 100vh;
+  background-size: 100vw 93vh;
+  min-height: 10vh;
   min-width: 100vw;
 }
 
