@@ -3,32 +3,29 @@ body {
   margin: 0;
   background-image: url(images3.jpeg);
   background-repeat: no-repeat;
-  background-size: 9.5cm 19cm;
-  min-height: 1cm; 
-  min-width: 1cm;
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 h1 {
+  font-size: 35pt;
   text-align: center;
-  height: 1.1cm;
-  min-height: 1cm;
-  width: 7.6cm;
-  min-width: 1cm;
+  height: 8vh;
+  width: 80vw;
   background-color: orange;
-  position: absolute;
   border: 0;
   border-radius: 1mm;
-  top: 3%;
-  left: 10%;
+  position: relative;
+  top: 1.5vh;
+  left: 10vw;
 }
 
 #container {
-  min-height: 40%;
-  min-width: 50%;
-  border: 0;
+  height: 40vh;
+  width: 50vw;
   border-radius: 1mm;
-  position: absolute;
-  top: 25%;
-  left: 25%;
+  position: relative;
+  top: 10vh;
+  left: 25vw;
   background-color: #9826A8;
 
 }
@@ -38,10 +35,10 @@ li {
 }
 
 .btn {
-  min-width: 90%;
+  width: 35vw;
   position: relative;
-  right: 10%;
-  margin-bottom: 15%;
+  right: 3vw;
+  margin-top: 3.3vh;
   border: 0;
   border-radius: 1mm;
   background-color: #359EBC;
