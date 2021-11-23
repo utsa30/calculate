@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="Sum.js"></script>
+  <script src="main.js"></script>
   <link rel="stylesheet" href="Sum.css">
   <title>Calculation 🧮🧮🧮</title>
 </head>
@@ -15,10 +15,18 @@
  
   <div id="container">
     <ul>
-     <input type="number">
-     <input type="number">
-      
+     <input type="number" class="input" id="input1">
+     <input type="number" class="input" id="input2">
     </ul>
+  </div>
+  <div id="button"> 
+  <input type="button" id="btn" value="add" onclick="myFunc1()">
+  <input type="button" id="btn" value="sub" onclick="myFunc2()">
+  <input type="button" id="btn" value="mul" onclick="myFunc3()">
+  <input type="button" id="btn" value="div" onclick="myFunc4()">
+  </div>
+  <div id="para">
+    <p id="demo"><u>Your Answer Is :</u></p>
   </div>
 </body>
 

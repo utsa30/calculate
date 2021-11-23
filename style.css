@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  font-size: 1vw;
   background-image: url(images3.jpeg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -9,22 +10,22 @@ body {
 h1 {
   font-size: 12vw;
   text-align: center;
-  height: 7vh;
-  width: 80vw;
+  height: 1.2em;
+  width: 6.67em;
   background-color: orange;
   border: 0;
-  border-radius: 1mm;
+  border-radius: 0.1em;
   position: relative;
-  top: 1.9vh;
-  left: 10vw;
+  top: 0.30em;
+  left: 0.83em;
 }
 #container {
-  height: 40vh;
-  width: 50vw;
-  border-radius: 1mm;
+  height: 80em;
+  width: 50em;
+  border-radius: 1em;
   position: relative;
-  top: 10vh;
-  left: 25vw;
+  top: 22.5em;
+  left: 25em;
   background-color: #9826A8;
 
 }
@@ -34,14 +35,16 @@ li {
 }
 
 .btn {
-  width: 35.5vw;
+  font-size: 4vw;
+  width: 10em;
   position: relative;
-  right: 4vw;
-  margin-top: 3.3vh;
+  right: 1.5em;
+  margin-top: 1.6em;
   border: 0;
-  border-radius: 1mm;
+  border-radius: 0.25em;
   background-color: #359EBC;
   color: black;
+  outline: none;
 }
 .btn:hover{
   background-color: #31D950;

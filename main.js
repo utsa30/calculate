@@ -1,30 +1,30 @@
 function myFunc1() {
-  var x = document.getElementById("i1").value;
-  var y = document.getElementById("i2").value;
+  var x = document.getElementById("input1").value;
+  var y = document.getElementById("input2").value;
   var sum = parseInt(x) + parseInt(y);
 
-  document.getElementById("demo").innerHTML = "Your Answer Is : " + " " + sum;
+  document.getElementById("demo").innerHTML = "Your Answer Is :" + " " + sum;
 }
 
 function myFunc2() {
-  var x = document.getElementById("i1").value;
-  var y = document.getElementById("i2").value;
+  var x = document.getElementById("input1").value;
+  var y = document.getElementById("input2").value;
   var sub = parseInt(x) - parseInt(y);
 
   document.getElementById("demo").innerHTML = "Your Answer Is :" + " " + sub;
 }
 
 function myFunc3() {
-  var x = document.getElementById("i1").value;
-  var y = document.getElementById("i2").value;
+  var x = document.getElementById("input1").value;
+  var y = document.getElementById("input2").value;
   var mal = parseInt(x) * parseInt(y);
 
   document.getElementById("demo").innerHTML = "Your Answer Is :" + " " + mal;
 }
 
 function myFunc4() {
-  var x = document.getElementById("i1").value;
-  var y = document.getElementById("i2").value;
+  var x = document.getElementById("input1").value;
+  var y = document.getElementById("input2").value;
   var div = parseInt(x) / parseInt(y);
 
   document.getElementById("demo").innerHTML = "Your Answer Is :" + " " + div;
