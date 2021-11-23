@@ -7,18 +7,17 @@ body {
   background-attachment: fixed;
 }
 h1 {
-  font-size: 35pt;
+  font-size: 12vw;
   text-align: center;
-  height: 8vh;
+  height: 7vh;
   width: 80vw;
   background-color: orange;
   border: 0;
   border-radius: 1mm;
   position: relative;
-  top: 1.5vh;
+  top: 1.9vh;
   left: 10vw;
 }
-
 #container {
   height: 40vh;
   width: 50vw;
@@ -35,12 +34,16 @@ li {
 }
 
 .btn {
-  width: 35vw;
+  width: 35.5vw;
   position: relative;
-  right: 3vw;
+  right: 4vw;
   margin-top: 3.3vh;
   border: 0;
   border-radius: 1mm;
   background-color: #359EBC;
   color: black;
+}
+.btn:hover{
+  background-color: #31D950;
+  color: red;
 }

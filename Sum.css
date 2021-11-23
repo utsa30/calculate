@@ -25,4 +25,5 @@ input{
   border-radius: 1mm;
   position: relative;
   right: 3vw;
+  outline: none;
 }
